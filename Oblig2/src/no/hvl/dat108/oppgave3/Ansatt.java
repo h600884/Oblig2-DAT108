@@ -1,7 +1,5 @@
 package no.hvl.dat108.oppgave3;
 
-import no.hvl.dat108.oppgave2.Kjonn;
-
 public class Ansatt {
     private String fornavn;
     private String etternavn;
@@ -16,6 +14,7 @@ public class Ansatt {
         this.stilling = stilling;
         this.lonn = lonn;
     }
+
 
     public String getFornavn() {
         return fornavn;
